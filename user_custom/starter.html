@@ -18,7 +18,6 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <!-- Google Font -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini fixed">
@@ -40,22 +39,34 @@
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-          <!-- User Account: style can be found in dropdown.less -->
-          <li class="dropdown user user-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <img src="assets/adminlte/img/avatar6.png" class="user-image" alt="Admin">
-                <span class="hidden-xs"> Admin <i class="fa fa-chevron-down"></i></span>
-            </a>
-            <ul class="dropdown-menu">
-              <!-- Menu Footer-->
-              <li>
-                  <a href="javascript:layout_show_change_pwd_div()"><i class="fa fa-cog"></i> 修改密码</a>
-              </li>
-              <li>
-                  <a href="http://www.inphper.com"><i class="fa fa-power-off"></i> 退出登录</a>
-              </li>
-            </ul>
-          </li>
+            <li style="float:left;width:600px">
+                <span style="position:absolute;right:5px; top:10px;">                            
+                    <select class="select2" name="gid" id="gid" style="width:140px;">
+                        <option value="">请选择游戏</option>                        
+                    </select>
+                    <select class="select2" name="sid" id="sid" style="width:200px;">
+                        <option value="">请选择平台</option>                        
+                    </select>
+                    <select class="select2" name="sid" id="sid" style="width:200px;">
+                        <option value="">请选择区服</option>                        
+                    </select>
+                </span>
+            </li>
+            <li class="dropdown user user-menu pull-right">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <img src="assets/adminlte/img/avatar6.png" class="user-image" alt="Admin">
+                    <span class="hidden-xs"> Admin <i class="fa fa-chevron-down"></i></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- Menu Footer-->
+                  <li>
+                      <a href="javascript:layout_show_change_pwd_div()"><i class="fa fa-cog"></i> 修改密码</a>
+                  </li>
+                  <li>
+                      <a href="http://www.inphper.com"><i class="fa fa-power-off"></i> 退出登录</a>
+                  </li>
+                </ul>
+            </li>
         </ul>
       </div>
     </nav>
@@ -124,6 +135,546 @@
             </li>
           </ul>
         </li>
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="treeview">
+          <a href="#">
+              <i class="fa fa-gamepad"></i><span>数据汇总</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏概况</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏实数数据</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-caret-right"></i>各游戏汇总数据</a>
+            </li>
+          </ul>
+        </li>
+
 
         <li class="treeview">
           <a href="#">
@@ -210,13 +761,46 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td>183</td><td>约翰·多伊</td><td>2014年11月7日</td><td><span class="label label-success">批准</span></td><td>培根ipsum dolor</td>
+                        <td>183</td><td>约翰·多伊</td><td>2014年11月7日</td><td><span class="label label-success">批准</span></td>
+                        <td>
+                            <div class="btn-group">
+                                <a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown" aria-expanded="true">
+                                    <i class="fa fa-list"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="">编辑</a></li>
+                                    <li><a href="javascript:;" onclick="layer_confirm('确定删除吗?','')">删除</a></li>
+                                </ul>
+                            </div>
+                        </td>
                       </tr>
                       <tr>
-                        <td>219</td><td>亚历山大皮尔斯</td><td>2014年11月7日</td><td><span class="label label-warning">有待</span></td><td>培根ipsum dolor</td>
+                        <td>219</td><td>亚历山大皮尔斯</td><td>2014年11月7日</td><td><span class="label label-warning">有待</span></td>
+                        <td>
+                            <div class="btn-group">
+                                <a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown" aria-expanded="true">
+                                    <i class="fa fa-list"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="">编辑</a></li>
+                                    <li><a href="javascript:;" onclick="layer_confirm('确定删除吗?','')">删除</a></li>
+                                </ul>
+                            </div>
+                        </td>
                       </tr>
                       <tr>
-                        <td>657</td><td>Bob Doe</td><td>2014年11月7日</td><td><span class="label label-primary">批准</span></td><td>培根ipsum dolor</td>
+                        <td>657</td><td>Bob Doe</td><td>2014年11月7日</td><td><span class="label label-primary">批准</span></td>
+                        <td>
+                            <div class="btn-group">
+                                <a class="dropdown-toggle" href="javascript:;" data-toggle="dropdown" aria-expanded="true">
+                                    <i class="fa fa-list"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="">编辑</a></li>
+                                    <li><a href="javascript:;" onclick="layer_confirm('确定删除吗?','')">删除</a></li>
+                                </ul>
+                            </div>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
