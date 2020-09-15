@@ -1,0 +1,4 @@
+.sidebar-form>div.form-group{padding-bottom:0;margin-bottom:0}
+.sidebar-form>div.form-group .form-control-feedback{left:0!important;color:#999;width:28px;}
+.sidebar-form>div.form-group input.sidebar-menu-search-ipt{padding-left:28px}
+.sidebar-mini.sidebar-collapse .sidebar-form{display:block!important}
